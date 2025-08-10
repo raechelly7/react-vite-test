@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: url('https://images.unsplash.com/photo-1505685296765-3a2736de412f') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.invitation {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.invitation h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.date, .location {
+  font-size: 1.2rem;
+  margin: 0.3rem 0;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  background: #d4a373;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #c38b59;
+}
