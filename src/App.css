@@ -1,81 +1,37 @@
 body {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: url('https://img.freepik.com/premium-vector/diploma-certificate_1020-2654.jpg?w=900') center/cover no-repeat;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff0f5;
+  color: #333;
 }
 
-.invitation {
-  background: rgba(114, 146, 164, 0.85);
-  padding: 2rem;
-  border-radius: 12px;
+.wedding-container {
   text-align: center;
-  max-width: 400px;
-  width: 90%;
+  padding: 20px;
 }
 
-.invitation h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
+.wedding-header {
+  background-color: #ffb6c1;
+  padding: 20px;
+  border-radius: 10px;
 }
 
-.date, .location {
+.subtitle {
+  font-style: italic;
+  color: #444;
+}
+
+.details {
+  margin-top: 20px;
   font-size: 1.2rem;
-  margin: 0.3rem 0;
 }
 
 .countdown {
-  display: flex;
-  justify-content: space-around;
-  margin: 1.5rem 0;
+  margin-top: 40px;
 }
 
-.countdown div {
-  background: #374453;
-  padding: 0.5rem;
-  border-radius: 8px;
-  width: 70px;
-}
-
-.countdown span {
-  display: block;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.countdown small {
-  font-size: 0.8rem;
-}
-
-button {
-  margin-top: 1rem;
-  padding: 0.7rem 1.5rem;
-  font-size: 1rem;
-  border: none;
-  background: #374453;
-  color: white;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
-button:hover {
-  background: #4e86c5;
-}
-
-@media (max-width: 500px) {
-  .invitation h1 {
-    font-size: 2rem;
-  }
-
-  .countdown div {
-    width: 60px;
-    padding: 0.3rem;
-  }
-
-  .countdown span {
-    font-size: 1.2rem;
-  }
+footer {
+  margin-top: 50px;
+  font-size: 0.9rem;
+  color: #777;
 }
